@@ -10,6 +10,7 @@ export default function Header() {
         <Row>
             <Col>
                 <img src={Img} />
+                alo alo
             </Col>
         </Row>
         <Row>
