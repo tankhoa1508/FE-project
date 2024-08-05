@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+
+.header-divider {
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    height: 30px;
+    vertical-align: middle;
+    position: relative;
+    margin: 0 7.5px;
+    padding-right: 0 !important;
+}
+
+.container {
+    max-width: 1217px;
+    .row1{
+        .col1{
+            display: flex;
+            a {
+                img {
+                    padding: 10px 0;
+                }
+            }
+            ul {
+                text-align: left;
+                list-style: none;
+                display: flex;
+                margin-left: auto;
+                align-items: center;
+                font-size: 16px;
+                color: #666;
+                li {
+                    padding: 10px;
+                    .cart-icon {
+                        strong {
+                            border-radius: 0;
+                            font-weight: bold;
+                            // margin: .3em 0;
+                            border: 2px solid #cbba9c;
+                            color: #cbba9c;
+                            position: relative;
+                            display: inline-block;
+                            vertical-align: middle;
+                            text-align: center;
+                            width: 2.2em;
+                            height: 2.2em;
+                            font-size: 1em;
+                            line-height: 1.9em;
+                            margin-left: 10px;
+                        }
+                        strong::after {
+                            transition: height .1s ease-out;
+                            bottom: 100%;
+                            margin-bottom: 0;
+                            margin-left: -9px;
+                            height: 8px;
+                            width: 14px;
+                            left: 50%;
+                            content: ' ';
+                            position: absolute;
+                            pointer-events: none;
+                            border: 2px solid #cbba9c;
+                            border-top-left-radius: 99px;
+                            border-top-right-radius: 99px;
+                            border-bottom: 0
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}
+
+.container2 {
+    background-color: #000;
+    // width: 100% !important;
+    margin: 0 auto;
+    .row2 {
+        max-width: 1217px;
+        .navbar {
+            li {
+                a {
+                    color: #cbba9c;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
+
