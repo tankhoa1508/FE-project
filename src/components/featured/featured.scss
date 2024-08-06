@@ -1,0 +1,173 @@
+a {
+    text-decoration: none;
+    color: #000;
+    // opacity: 0.5;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    text-align: center;
+    margin-top: 40px;
+    h3 {
+        color: #1c1c1c;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    h1 {
+        color: #000;
+        font-size: 50px;
+        font-weight: bold;
+        letter-spacing: 5px;
+        .title-color{
+            color: #cbba9c ;
+        }
+    }
+    .contain {
+        display: flex;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        .box1 {
+            box-sizing: border-box;
+            width: 30.2%;
+            margin: 20px 20px 0;
+            padding: 0 15px 30px;
+            .img {
+                position: relative;
+                overflow: hidden;
+                margin-bottom: 10px;
+                
+                img{
+                    max-width: 100%;
+                    height: auto;
+                    display: inline-block;
+                    vertical-align: middle;
+                }
+            }
+            .img1::before{
+                content: '-17%';
+                font-weight: bold;
+                padding: 2px 4px;
+                color: #fff;
+                width: 48px;
+                height: 48px;
+                border-radius: 50%;
+                line-height: 40px;
+                background-color: #cbba9c;
+                position: absolute;
+                top: 5%;
+                left: 5%;
+            }
+
+            .img2::before{
+                content: '-40%';
+                font-weight: bold;
+                padding: 2px 4px;
+                color: #fff;
+                width: 48px;
+                height: 48px;
+                border-radius: 50%;
+                line-height: 40px;
+                background-color: #cbba9c;
+                position: absolute;
+                top: 5%;
+                left: 5%;
+            }
+
+            .img3::before{
+                content: '-85%';
+                font-weight: bold;
+                padding: 2px 4px;
+                color: #fff;
+                width: 48px;
+                height: 48px;
+                border-radius: 50%;
+                line-height: 40px;
+                background-color: #cbba9c;
+                position: absolute;
+                top: 5%;
+                left: 5%;
+            }
+
+            .img4::before{
+                content: '-9%';
+                font-weight: bold;
+                padding: 2px 4px;
+                color: #fff;
+                width: 48px;
+                height: 48px;
+                border-radius: 50%;
+                line-height: 40px;
+                background-color: #cbba9c;
+                position: absolute;
+                top: 5%;
+                left: 5%;
+            }
+
+            .img5::before{
+                content: '-90%';
+                font-weight: bold;
+                padding: 2px 4px;
+                color: #fff;
+                width: 48px;
+                height: 48px;
+                border-radius: 50%;
+                line-height: 40px;
+                background-color: #cbba9c;
+                position: absolute;
+                top: 5%;
+                left: 5%;
+            }
+
+            .img6::before{
+                content: '-88%';
+                font-weight: bold;
+                padding: 2px 4px;
+                color: #fff;
+                width: 48px;
+                height: 48px;
+                border-radius: 50%;
+                line-height: 40px;
+                background-color: #cbba9c;
+                position: absolute;
+                top: 5%;
+                left: 5%;
+            }
+            .content {
+                .name {
+                    color: #334862;
+                    font-size: 14.4px;
+                    margin-bottom: 10px;
+                }
+                
+            }
+        }
+        .box1:hover{
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+            transform: translateY(-10px);
+            transition: 1s;
+            .name {
+                color: #cbba9c;
+            }
+        }
+    }
+}
+
+.price{
+    color: #111;
+    font-size: 14.4px;
+    font-weight: bold;
+    .price-origin {
+        white-space: nowrap;
+        color: #111;
+        opacity: .6;
+        font-weight: normal;
+        margin-right: .3em;
+        text-decoration: line-through;
+    }
+}
+

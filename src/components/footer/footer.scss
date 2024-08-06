@@ -1,0 +1,169 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #4c5387;
+}
+
+footer {
+    background-image: url(../../images/slider1.jpg);
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: invert(20%);
+    /* position: absolute;
+    bottom: 0; */
+    /* width: 100%; */
+    /* padding: 40px 60px; */
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 40px 60px;
+}
+
+footer .column {
+    width: 25%;
+}
+
+footer .logo {
+    margin-bottom: 30px;
+}
+
+footer .column1 p {
+    opacity: 0.5;
+    line-height: 30px;
+    margin-bottom: 20px;
+    padding-right: 45%;
+}
+
+footer .read {
+    color: aqua;
+    font-weight: bold;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+footer .read:hover {
+    color: green;
+}
+
+footer .list a {
+    opacity: 0.5;
+    margin-right: 20px;
+}
+
+footer .column h2 {
+    margin-bottom: 40px;
+}
+
+/* footer .column h2::before{
+    content: '';
+    width: 40px;
+    height: 2px;
+    background-color: aqua;
+    position: absolute;
+    top: 22%;
+} */
+
+footer .column li {
+    opacity: 0.5;
+    line-height: 40px;
+    list-style-type: none;
+}
+
+footer .column4 .contact-col {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+footer .column4 i {
+    color: aqua;
+    width: 10%;
+    /* display: inline-block; */
+}
+
+footer .column4 p {
+    opacity: 0.5;
+    width: 90%;
+    padding-right: 45%;
+    word-wrap: break-word; 
+    overflow: hidden;
+    /* display: inline-block; */
+}
+
+footer .column4 h2 {
+    margin-bottom: 48px;
+}
+
+@media screen and (max-width: 768px) {
+    footer .column {
+        width: 50%;
+        /* height: 50vh; */
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    footer .column {
+        width: 50%;
+        margin-top: 30px;
+    }
+
+    footer .logo img {
+        width: 80%;
+    }
+
+    footer .column h2 {
+        margin-bottom: 15px;
+        position: relative;
+    }
+
+    footer .column h2::before {
+        /* top: 10%; */
+        content: ''; 
+        width: 40px;
+        height: 2px;
+        background-color: aqua;
+        position: absolute;
+        top: 120%; 
+    }
+
+    footer {
+        padding: 30px;
+        position: absolute;
+        bottom: 0;
+    }
+
+    footer .column li {
+        line-height: 30px;
+    }
+
+    footer .column1 p {
+        padding-right: 20%;
+    }
+
+    footer .column1 .read {
+        margin-bottom: 15px;
+    }
+
+    footer .list a {
+        margin-right: 10px;
+    }
+
+    footer .column4 p {
+        margin-left: 5px;
+        padding-right: 0%;
+    }
+
+}

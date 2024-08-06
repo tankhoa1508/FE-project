@@ -11,15 +11,6 @@ ul {
     list-style: none;
 }
 
-.header-divider {
-    border-left: 1px solid rgba(0, 0, 0, 0.1);
-    height: 30px;
-    vertical-align: middle;
-    position: relative;
-    margin: 0 7.5px;
-    padding-right: 0 !important;
-}
-
 .container {
     max-width: 1217px;
     .row1{
@@ -82,19 +73,38 @@ ul {
 }
 
 .container2 {
-    background-color: #000;
+    background-color: #0A0A0A;
+    height: 75px;
     // width: 100% !important;
     margin: 0 auto;
     .row2 {
-        max-width: 1217px;
+            margin: 0 150px;
         .navbar {
             li {
                 a {
                     color: #cbba9c;
                     font-weight: bold;
+                    padding: 0 20px;
+                    font-size: 14.4px;
+                    line-height: 56px;
+                }
+            }
+            li:hover {
+                a{
+                    color: #fff;
+                    cursor: pointer;
                 }
             }
         }
     }
 }
 
+.header-divider {
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    height: 30px;
+    vertical-align: middle;
+    position: relative;
+    margin: 0 7.5px;
+    margin-left: 18px;
+    padding-right: 0 !important;
+}

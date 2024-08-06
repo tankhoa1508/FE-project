@@ -32,8 +32,8 @@ export default function Header() {
         </Row>
         
     </Container>
-    <Container className="container2">
-    <Row className="row2">
+    <div className="container2">
+    <div className="row2">
             <ul className="navbar">
                 <li><a>TRANG CHỦ</a></li>
                 <li className="header-divider"></li>
@@ -51,8 +51,8 @@ export default function Header() {
                 <li className="header-divider"></li>
                 <li><a>GIỚI THIỆU</a></li>
             </ul>
-        </Row>
-    </Container>
+        </div>
+    </div>
     </div>
     
   );
