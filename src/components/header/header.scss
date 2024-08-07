@@ -11,6 +11,8 @@ ul {
     list-style: none;
 }
 
+
+
 .container {
     max-width: 1217px;
     .row1{
@@ -21,7 +23,7 @@ ul {
                     padding: 10px 0;
                 }
             }
-            ul {
+            .ul-header {
                 text-align: left;
                 list-style: none;
                 display: flex;
@@ -78,7 +80,7 @@ ul {
     // width: 100% !important;
     margin: 0 auto;
     .row2 {
-            margin: 0 150px;
+            margin: 0 15%;
         .navbar {
             li {
                 a {
@@ -102,6 +104,15 @@ ul {
 .header-divider {
     border-left: 1px solid rgba(0, 0, 0, 0.1);
     height: 30px;
+    vertical-align: middle;
+    position: relative;
+    margin: 0 7.5px;
+    margin-left: 18px;
+    padding-right: 0 !important;
+}
+.header-divider2 {
+    border-left: 1px solid #cbba9c;
+    height: 15px;
     vertical-align: middle;
     position: relative;
     margin: 0 7.5px;

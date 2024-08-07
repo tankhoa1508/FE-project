@@ -10,10 +10,10 @@ import './featured.scss'
 
 export default function Featured() {
   return (
-    <div>
+    <div className='containerFeatured'>
         <Container class="container">
         <h3>360° COLLECTION</h3>
-        <h1><span className="title-color">FEATURED</span> PRODUCTS</h1>
+        <h1 className="featured-title"><span className="title-color">FEATURED</span> PRODUCTS</h1>
         <div class="contain">
             <div class="box1" lg="4" sm="6" xs="12">
                 <div class="img img1"><img src={pro1} width={375} height={375}/></div>

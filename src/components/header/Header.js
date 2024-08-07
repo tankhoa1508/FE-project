@@ -10,7 +10,7 @@ export default function Header() {
         <Row className="row1">
             <Col className="col1">
                 <a><img src={Img} width={112} height={90}/></a>
-                <ul>
+                <ul className="ul-header">
                   <li>
                     <a><i class="fa-solid fa-magnifying-glass"></i></a>
                   </li>
@@ -33,22 +33,22 @@ export default function Header() {
         
     </Container>
     <div className="container2">
-    <div className="row2">
+      <div className="row2">
             <ul className="navbar">
                 <li><a>TRANG CHỦ</a></li>
-                <li className="header-divider"></li>
+                <li className="header-divider2"></li>
                 <li><a>SẢN PHẨM HOT</a></li>
-                <li className="header-divider"></li>
+                <li className="header-divider2"></li>
                 <li><a>SALE</a></li>
-                <li className="header-divider"></li>
+                <li className="header-divider2"></li>
                 <li><a>ĐỒNG HỒ NỮ</a></li>
-                <li className="header-divider"></li>
+                <li className="header-divider2"></li>
                 <li><a>ĐỒNG HỒ NAM</a></li>
-                <li className="header-divider"></li>
+                <li className="header-divider2"></li>
                 <li><a>BRANDS</a></li>
-                <li className="header-divider"></li>
+                <li className="header-divider2"></li>
                 <li><a>LIÊN HỆ</a></li>
-                <li className="header-divider"></li>
+                <li className="header-divider2"></li>
                 <li><a>GIỚI THIỆU</a></li>
             </ul>
         </div>
