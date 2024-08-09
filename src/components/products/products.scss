@@ -1,0 +1,204 @@
+.border-bottom {
+    border-bottom: 1px dotted #35353550;
+}
+
+.container-products {
+    width: 85%;
+    margin: 0 auto;
+    .head-product {
+        display: flex;
+        margin: 0 auto;
+        margin-top: 40px;
+        width: 80%;
+        .link-nav{
+            a{
+                text-decoration: none;
+                color: rgba(102, 102, 102, 0.7);
+                font-weight: normal;
+                font-size: 18.4px;
+            }
+            a:hover{
+                color: #222;
+            }
+            .a{
+                color: #222;
+                font-weight: bold;
+                font-size: 18.4px;
+            }
+        }
+        .sort-product{
+            margin-left: auto;
+            .sort {
+                padding: 10px;
+                border: 1px solid #ddd;
+                box-shadow: inset 0 -1.4em 1em 0 rgba(0, 0, 0, 0.02);
+            }
+        }
+    }
+    
+    .row-products {
+        width: 81%;
+        margin: 0 auto;
+        margin-top: 20px;
+        .col1 {
+            .sidebar-title {
+                font-size: 16px;
+                color: #353535;
+                font-weight: bold;
+            }
+            .product-categories {
+                font-size: 14px;
+                border: 1px solid #ddd;
+                border-radius: 3px;
+                padding: 15px;
+                background-color: rgba(221, 221, 221, 0.1);
+                margin-top: 15px;
+                .li-product{
+                    a {
+                        display: inline-block;
+                        font-size: 16px;
+                        padding: 6px 0;
+                        color: #334862;
+                        text-decoration: none;
+                    }
+                }
+                .li-product:hover a {
+                    color: #cbba9c;
+                    cursor: pointer;
+                }
+            }
+        }
+        .col2 {
+            .contain {
+                display: flex;
+                flex-wrap: wrap;
+                box-sizing: border-box;
+                .box1 {
+                    box-sizing: border-box;
+                    width: 29.1%;
+                    margin: 20px 20px 0;
+                    padding: 0 15px 30px;
+                    transition: 1s;
+                    .img {
+                        position: relative;
+                        overflow: hidden;
+                        margin-bottom: 10px;
+                        
+                        img{
+                            max-width: 100%;
+                            height: auto;
+                            display: inline-block;
+                            vertical-align: middle;
+                        }
+                    }
+                    .img1::before{
+                        content: '-17%';
+                        font-weight: bold;
+                        padding: 2px 4px;
+                        color: #fff;
+                        width: 48px;
+                        height: 48px;
+                        border-radius: 50%;
+                        line-height: 40px;
+                        background-color: #cbba9c;
+                        position: absolute;
+                        top: 5%;
+                        left: 5%;
+                    }
+        
+                    .img2::before{
+                        content: '-40%';
+                        font-weight: bold;
+                        padding: 2px 4px;
+                        color: #fff;
+                        width: 48px;
+                        height: 48px;
+                        border-radius: 50%;
+                        line-height: 40px;
+                        background-color: #cbba9c;
+                        position: absolute;
+                        top: 5%;
+                        left: 5%;
+                    }
+        
+                    .img3::before{
+                        content: '-85%';
+                        font-weight: bold;
+                        padding: 2px 4px;
+                        color: #fff;
+                        width: 48px;
+                        height: 48px;
+                        border-radius: 50%;
+                        line-height: 40px;
+                        background-color: #cbba9c;
+                        position: absolute;
+                        top: 5%;
+                        left: 5%;
+                    }
+        
+                    .img4::before{
+                        content: '-9%';
+                        font-weight: bold;
+                        padding: 2px 4px;
+                        color: #fff;
+                        width: 48px;
+                        height: 48px;
+                        border-radius: 50%;
+                        line-height: 40px;
+                        background-color: #cbba9c;
+                        position: absolute;
+                        top: 5%;
+                        left: 5%;
+                    }
+        
+                    .img5::before{
+                        content: '-90%';
+                        font-weight: bold;
+                        padding: 2px 4px;
+                        color: #fff;
+                        width: 48px;
+                        height: 48px;
+                        border-radius: 50%;
+                        line-height: 40px;
+                        background-color: #cbba9c;
+                        position: absolute;
+                        top: 5%;
+                        left: 5%;
+                    }
+        
+                    .img6::before{
+                        content: '-88%';
+                        font-weight: bold;
+                        padding: 2px 4px;
+                        color: #fff;
+                        width: 48px;
+                        height: 48px;
+                        border-radius: 50%;
+                        line-height: 40px;
+                        background-color: #cbba9c;
+                        position: absolute;
+                        top: 5%;
+                        left: 5%;
+                    }
+                    .content {
+                        .name {
+                            color: #334862;
+                            font-size: 14.4px;
+                            margin-bottom: 10px;
+                        }
+                        
+                    }
+                }
+                .box1:hover{
+                    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+                    transform: translateY(-10px);
+                    transition: 1s;
+                    .name {
+                        color: #cbba9c;
+                    }
+                }
+            }
+        }
+    }
+}
+
